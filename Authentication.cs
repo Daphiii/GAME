@@ -39,7 +39,7 @@ public class Authentication
 
     public void SaveResult(string username, bool result)
     {
-        var outcome = result ? "Победа" : "Поражение";
+        var outcome = result ? "Победа" : "Unluck";
         users[username].Add(outcome);
         File.WriteAllText(FilePath, JsonConvert.SerializeObject(users));
     }
