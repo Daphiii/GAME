@@ -52,7 +52,7 @@ public class Game
                 Console.WriteLine("Введите корректное число.");
             }
         }
-        Console.WriteLine($"Вы исчерпали все попытки. Загаданное число было {targetNumber}.");
+        Console.WriteLine($"Unluck. Загаданное число было {targetNumber}.");
         return false;
     }
 }
